@@ -11,7 +11,13 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  ignorePatterns: ['package*.json', '.gitignore', '.simple-git-hooks.json', 'README.md'],
+  ignorePatterns: [
+    'package*.json',
+    '.gitignore',
+    '.simple-git-hooks.json',
+    'README.md',
+    'index.html'
+  ],
   overrides: [
     {
       files: ['.vue', '.js', '.jsx', '.cjs', '.mjs']
